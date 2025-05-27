@@ -2,34 +2,42 @@
 
 <html>
 <head>
+<!--METADATA & RESPONSIVE VIEWPOINT-->
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<!--TITLE & CSS-->
 <title>Woose Solution</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="css/base.css"/>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <link rel="stylesheet" type="text/css" href="css/media.css"/>
 <link rel="stylesheet" type="text/css" href="css/sty.css"/>
+<!--JS-->
 <script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-</head>
+<head>
 
 <body>
 
-<!--头部-->
-
+<!--HEADER SECTION-->
 <header class="header">
+  <!--TOP BANNER (hidden for small screens)-->
   <div class="top hidden-sm hidden-xs ">
     <div class="container">
       <div class="pull-left">Welcome to Woose Solution</div>
       <div class="pull-right">Your Solutions of Building Supplies</div>
     </div>
   </div>
+
+  <!--NAV BAR-->
   <div class="logo_box">
     <div class=" container">
+      <!--LOGO IMAGE-->
       <div class="logo pull-left"> <img src="images/logo.png" alt="" height="40" /> </div>
+      <!--MOBILE HAMBURGER MENU-->
       <button	class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <!--NAV MENU-->
       <div class="nav_box collapse navbar-collapse pull-right">
         <ul class="nav navbar-nav" id="nav_sj">
           <li><a class="acitve" href="index.html">Home</a></li>
@@ -37,19 +45,19 @@
           <li><a href="products.html">Product Centre</a></li>
           <li><a href="service.html">Our Services</a></li>
           <li><a href="contact.html">Contact us</a></li>
-          <li class="tel"><a href="mailto: info@woosesolution.com">Email Us</a></li>
         </ul>
       </div>
     </div>
   </div>
+
 </header>
 
-<!--banner-->
 
+<!--HERO BANNER-->
 <section class="banner"> <img src="images/house.jpg" alt="" class="img-responsive" /> </section>
 
-<!--About us-->
 
+<!--ABOUT US-->
 <div class="about">
   <div class="container">
     <div class="row">
@@ -59,25 +67,27 @@
         <p>Woose Solution was founded in 2020 in GTA, A rapid growth company to provide the building supplies in Canada. In the past several years, we have been earning reputation by serving several projects in local market with repliable supply chain management, stable quality, quick feedback.</p>
         <p> </p>
 		<p>We works as a whole sales to real estate developper, Builder, contractors, distributors for different customer from east coast to West coast.</p>
-        <a href="about.html">查看更多More</a> </div>
+        <a href="about.html">About Us</a> </div>
     </div>
   </div>
 </div>
 
-<!--热门推荐Recommedations-->
-
+<!--FEATURED PRODUCTS-->
 <div class="rmtj text-center">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="tit">
           <h3></h3>
-          <p>Recommendation</p>
+          <p>Featured Products</p>
         </div>
       </div>
       <div class="pc-banner">
+
+        <!--SWIPPER IMAGE CAROUSEL-->
         <div class="swiper-container">
           <div class="swiper-wrapper">
+            <!--each slide is a product-->
             <div class="swiper-slide swiper-slide-center none-effect"> <a href="#"> <img src="images/Decking.jpg"> </a>
               <div class="layer-mask"></div>
             </div>
@@ -94,6 +104,7 @@
               <div class="layer-mask"></div>
             </div>
           </div>
+          <!--swipe navigation button-->
           <div class="button">
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -110,17 +121,17 @@
   </div>
 </div>
 
-<!--Product Centre-->
 
+<!--PRODUCT CENTRE-->
 <div class="cpzx text-center">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="tit2">
-          <h3><span>123XXXXX</span>中心</h3>
-          <p>products Centre</p>
+          <h3>Product Centre</h3>
         </div>
     
+        <!--example Product Entry-->
         <div class="col-md-4 col-sm-4 col-xs-12"> <a href="#">
           <dl>
             <dt><img src="images/process.jpg" /></dt>
@@ -137,22 +148,20 @@
   </div>
 </div>
 
-<!--广告-->
-
-<div class="ad text-center"> <img src="images/vas.jpg" class="img-responsive hidden-xs"/> <img src="images/vas2.jpg" class="img-responsive visible-xs"/> </div>
-
-<!--Service-->
-
+<!--SERVICES-->
 <div class="xwzx text-center">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="tit2">
-          <h3><span>Our </span>Service</h3>
+          <h3>Our Services</h3>
           <p></p>
         </div>
       </div>
+
+      <!--service cards-->
       <div class="xwzx_con text-left">
+        <!--service 1-->
         <div class="col-md-4 col-sm-4 col-xs-12">
           <dl>
             <dt><a href="#"><img src="images/news-1.jpg" class="img-responsive"/></a></dt>
@@ -163,6 +172,8 @@
             </dd>
           </dl>
         </div>
+
+        <!--service 2-->
         <div class="col-md-4 col-sm-4 col-xs-12">
           <dl>
             <dt><a href="#"><img src="images/news-2.jpg" class="img-responsive"/></a></dt>
@@ -173,6 +184,8 @@
             </dd>
           </dl>
         </div>
+
+        <!--service 3-->
         <div class="col-md-4 col-sm-4 col-xs-12">
           <dl>
             <dt><a href="#"><img src="images/news-3.jpg" class="img-responsive"/></a></dt>
@@ -189,33 +202,32 @@
   </div>
 </div>
 
-<!--底部-->
-
+<!--DESKTOP FOOTER-->
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <!-- 两侧留空列 -->
+      <!-- spacing -->
       <div class="col-1 d-none d-md-block"></div>
       <div class="col-1 d-none d-md-block"></div>
 
-      <!-- 核心内容区 -->
+      <!-- Content -->
       <div class="col-12 col-md-8">
         <div class="service-box">
-          <h3 class="contact-title">联系我们Contact US</h3>
+          <h3 class="contact-title">Contact US</h3>
           <div class="contact-info">
-            <p>Email: Info@woosesolution.com</p>
-            <p>Website: www.woosesolution.com</p>
-            <p>Address: 北京市西城区</p>
+            <p>Info@woosesolution.com</p>
+            <p>www.woosesolution.com</p>
+            <p>北京市西城区</p>
           </div>
         </div>
       </div>
 
-      <!-- 两侧留空列 -->
+      <!-- spacing -->
       <div class="col-1 d-none d-md-block"></div>
       <div class="col-1 d-none d-md-block"></div>
     </div>
 
-    <!-- 版权信息 -->
+    <!-- copyright -->
     <div class="copy">
       <div class="text-center">Copyright © 2025 www.woosesolution.com</div>
     </div>
@@ -308,8 +320,7 @@
 </style>
 </footer>
 
-<!--移动端底部导航-->
-
+<!--MOBILE FOOTER-->
 <div class="phonefooternav">
   <ul>
     <li> <a href="tel:[field:mobile]"> <i class="glyphicon glyphicon-earphone"></i> <span>一键拨号Contact US</span> </a> </li>
