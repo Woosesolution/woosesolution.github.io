@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("css/style.css");
+.mobile_menu_toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+  }
+  .mobile_nav {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 240px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+  .mobile_nav.open {
+    display: flex;
+  }
+  .mobile_nav a,
+  .dropdown_toggle {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  .mobile_nav a:hover,
+  .dropdown_toggle:hover {
+    background-color: var(--light);
+  }
+  .mobile_dropdown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .dropdown_content {
+    display: none;
+    flex-direction: column;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+  }
+  .dropdown_content a {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+  .dropdown_content.open {
+    display: flex;
+  }
+  @media screen and (max-width: 768px) {
+    .nav_links {
+      display: none !important;
+    }
+    .mobile_menu_toggle {
+      display: block;
+    }
+  }

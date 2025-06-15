@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woose Solutions</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile_nav.css">
+  <script src="nav.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body class="body">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav_wrapper"> 
+      <a href="index.html" class="logo_box">
+        <img src="images/logo.png" alt="Woose Solutions Logo" class="logo">
+        <span class="logo_text">Woose Solutions</span>
+      </a>
+      <nav class="nav_links">
+        <a href="about.html" class="nav_link">About</a>
+        <div class="nav_dropdown">
+          <span class="dropdown_text" onclick="toggleNavDropdown(this)">Products</span>
+          <div class="nav_dropdown_list">
+            <a href="light.html" class="nav_dropdown_link">Light Fixtures</a>
+            <a href="faucet.html" class="nav_dropdown_link">Faucets</a>
+            <a href="bath.html" class="nav_dropdown_link">Toilet & Bathtub</a>
+            <a href="door.html" class="nav_dropdown_link">Doors & Door Accessories</a>
+            <a href="deck.html" class="nav_dropdown_link">WPC Decking & Fencing</a>
+            <a href="carpet.html" class="nav_dropdown_link">Flooring & Carpet</a>
+          </div>
+        </div>
+        <a href="#contact" class="button">Contact Us</a>
+      </nav>
+
+
+      <div class="mobile_menu_toggle" onclick="toggleMobileMenu()">☰</div>
+      <div id="mobile_menu" class="mobile_nav">
+        <a href="about.html" class="nav_link">About</a>
+        <div class="mobile_dropdown">
+          <div class="dropdown_toggle" onclick="toggleDropdown('productsDropdown')">
+            Products ▾
+          </div>
+          <div id="productsDropdown" class="dropdown_content">
+            <a href="light.html">Light Fixtures</a>
+            <a href="faucets.html">Faucets</a>
+            <a href="bath.html">Toilet & Bathtub</a>
+            <a href="door.html">Doors & Accessories</a>
+            <a href="deck.html">WPC Decking</a>
+            <a href="carpet.html">Flooring & Carpet</a>
+          </div>
+        </div>
+        <a href="#contact" class="nav_link">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="content_wrapper">
+      <h1 class="hero_welcome">About Us</h1>
+      <p class="section_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+
+  <!-- WHO WE ARE -->
+  <section class="who_we_are">
+    <div class="content_wrapper">
+      <h2 class="section_heading">Who We Are</h2>
+      <p class="section_paragraph">
+        Woose Solutions, founded in 2020 in the GTA, is a rapidly growing company providing building supplies across Canada. We are committed to quality, reliability, and innovation.
+      </p>
+    </div>
+  </section>
+  
+  
+  <!-- CONTACT US -->
+  <section id = "contact" class ="contact">
+    <div class="content_wrapper">
+      <h2 class="section_heading">Contact Us</h2>
+  
+      <form class="contact_form" action="https://formsubmit.co/evayihuajin@gmail.com" method="POST">
+        <div class="form_cols">
+          <div class="form_group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </div>
+      
+        <div class="form_group full_width">
+          <label for="message">Tell Us About Your Goals</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://woosesolution.com/thank-you.html">
+
+        <div class="form_submit">
+          <button type="submit" class="button">Submit</button>
+        </div>
+      </form>
+      
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer class="site_footer">
+    <div class="content_wrapper footer_cols">
+      <!-- Brand / Logo Column -->
+      <div class="footer_brand">
+        <a href="index.html" class="footer_logo">
+          <img src="images/footer-logo.png" alt="Woose Solutions" />
+          <span>Woose Solutions</span>
+        </a>
+        <a
+          href="https://www.google.com/maps/place/250+Consumers+Rd+%23904,+North+York,+ON+M2J+4V6/"
+          class="footer_link"
+          target="_blank"
+        >
+        250 Consumres Rd, Unit 904, North York ON Canada M2J4V6
+        </a>
+        <a href="mailto:info@woosesolution.com" class="footer_link">
+          info@woosesolution.com
+        </a>
+      </div>
+  
+      <!-- Info Column -->
+      <div class="footer_section">
+        <h4>Info</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+  
+      <!-- Products Column -->
+      <div class="footer_section">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="light.html">Light Fixtures</a></li>
+          <li><a href="faucet.html">Faucets</a></li>
+          <li><a href="bath.html">Toilet &amp; Bathtub</a></li>
+          <li><a href="door.html">Door &amp; Door Accessories</a></li>
+          <li><a href="deck.html">WPC Decking &amp; Flooring</a></li>
+          <li><a href="carpet.html">Flooring &amp; Carpet</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bottom Copyright -->
+    <div class="footer_bottom">
+      <p>Copyright © 2025 www.woosesolution.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>

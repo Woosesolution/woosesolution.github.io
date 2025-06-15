@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woose Solutions</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile_nav.css">
+  <link rel="stylesheet" href="css/home.css">
+  <script src="nav.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body class="body">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav_wrapper"> 
+      <a href="index.html" class="logo_box">
+        <img src="images/logo.png" alt="Woose Solutions Logo" class="logo">
+        <span class="logo_text">Woose Solutions</span>
+      </a>
+      <nav class="nav_links">
+        <a href="about.html" class="nav_link">About</a>
+        <div class="nav_dropdown">
+          <span class="dropdown_text" onclick="toggleNavDropdown(this)">Products</span>
+          <div class="nav_dropdown_list">
+            <a href="light.html" class="nav_dropdown_link">Light Fixtures</a>
+            <a href="faucet.html" class="nav_dropdown_link">Faucets</a>
+            <a href="bath.html" class="nav_dropdown_link">Toilet & Bathtub</a>
+            <a href="door.html" class="nav_dropdown_link">Doors & Door Accessories</a>
+            <a href="deck.html" class="nav_dropdown_link">WPC Decking & Fencing</a>
+            <a href="carpet.html" class="nav_dropdown_link">Flooring & Carpet</a>
+          </div>
+        </div>
+        <a href="#contact" class="button">Contact Us</a>
+      </nav>
+
+
+      <div class="mobile_menu_toggle" onclick="toggleMobileMenu()">☰</div>
+      <div id="mobile_menu" class="mobile_nav">
+        <a href="about.html" class="nav_link">About</a>
+        <div class="mobile_dropdown">
+          <div class="dropdown_toggle" onclick="toggleDropdown('productsDropdown')">
+            Products ▾
+          </div>
+          <div id="productsDropdown" class="dropdown_content">
+            <a href="light.html">Light Fixtures</a>
+            <a href="faucets.html">Faucets</a>
+            <a href="bath.html">Toilet & Bathtub</a>
+            <a href="door.html">Doors & Accessories</a>
+            <a href="deck.html">WPC Decking</a>
+            <a href="carpet.html">Flooring & Carpet</a>
+          </div>
+        </div>
+        <a href="#contact" class="nav_link">Contact Us</a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="content_wrapper">
+      <h1 class="hero_welcome">Welcome to Woose Solutions.<br>Your Solution to Building Supplies.</h1>
+      <div class="layout-hflex columns">
+        <div class="layout-hflex competence_card">
+          <img src="images/home/icon-range.png" class="competence_icon" alt="Product Range Icon">
+          <p class="competence_text">Extensive Product Range</p>
+        </div>
+        <div class="layout-hflex competence_card">
+          <img src="images/home/icon-network.png" class="competence_icon" alt="Global Network Icon">
+          <p class="competence_text">Global Sourcing Network</p>
+        </div>
+        <div class="layout-hflex competence_card">
+          <img src="images/home/icon-service.png" class="competence_icon" alt="End-to-End Services Icon">
+          <p class="competence_text">End-to-End Services</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE ARE -->
+  <section class="who_we_are">
+    <div class="content_wrapper">
+      <h2 class="section_heading">Who We Are</h2>
+      <div class="columns">
+        <div class="who_text">
+          <p class="section_paragraph">
+            Woose Solutions, founded in 2020 in the GTA, is a rapidly growing company providing building supplies across Canada. We are committed to quality, reliability, and innovation.
+          </p>
+          <a href="about.html" class="button about_button">About Us</a>
+        </div>
+        <div class="who_image">
+          <img
+            src="images/home/WooseSolutionLocations.png"
+            class="map_image"
+            alt="Our Locations Map"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- WHO WE SERVE -->
+  <section class="who_we_serve">
+        <div class="content_wrapper">
+          <h2 class="section_heading">Who We Serve</h2>
+          <div class="layout-hflex columns">
+            <div class="layout-vflex customer_card">
+              <img src="images/home/real-estate.jpg" class="customer_image" alt="Real Estate Developer">
+              <div class="layout-vflex sub_rows">
+                <h3 class="subheading">Real Estate Developer</h3>
+                <p class="section_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="layout-vflex customer_card">
+              <img src="images/home/builder.jpg" class="customer_image" alt="Builder">
+              <div class="layout-vflex sub_rows">
+                <h3 class="subheading">Builder</h3>
+                <p class="section_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="layout-vflex customer_card">
+                <img src="images/home/contractor.jpg" class="customer_image" alt="Contractor">
+                <div class="layout-vflex sub_rows">
+                  <h3 class="subheading">Contractor</h3>
+                  <p class="section_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="layout-vflex customer_card">
+                <img src="images/home/distributor.jpg" class="customer_image" alt="Distributor">
+                <div class="layout-vflex sub_rows">
+                  <h3 class="subheading">Distributor</h3>
+                  <p class="section_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- OUR PRODUCTS -->
+  <section class="our_products">
+    <div class="content_wrapper">
+      <h2 class="section_heading">Our Products</h2>
+      <div class="product_slider_desktop">
+        <div class="slider slider" data-delay="4000" data-animation="slide">
+          <div class="slider-mask">
+            <div class="slide slide active">
+              <div class="layout-hflex columns">
+                <div class="layout-vflex product_card">
+                  <img src="images/home/light.png" class="product_image" alt="Light Fixtures">
+                  <h3 class="subheading">Light Fixtures</h3>
+                  <a href="light.html" class="button button">Learn More</a>
+                </div>
+                <div class="layout-vflex product_card">
+                  <img src="images/home/faucet.png" class="product_image" alt="Faucets">
+                  <h3 class="subheading">Faucets</h3>
+                  <a href="faucet.html" class="button button">Learn More</a>
+                </div>
+                <div class="layout-vflex product_card">
+                  <img src="images/home/bath.png" class="product_image" alt="Toilet & Bathtub">
+                  <h3 class="subheading">Toilet & Bathtub</h3>
+                  <a href="bath.html" class="button button">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide slide">
+              <div class="layout-hflex columns">
+                <div class="layout-vflex product_card">
+                  <img src="images/home/door.png" class="product_image" alt="Doors & Accessories">
+                  <h3 class="subheading">Doors & Door Accessories</h3>
+                  <a href="door.html" class="button button">Learn More</a>
+                </div>
+                <div class="layout-vflex product_card">
+                  <img src="images/home/deck.png" class="product_image" alt="Decking & Fencing">
+                  <h3 class="subheading">WPC Decking & Fencing</h3>
+                  <a href="deck.html" class="button button">Learn More</a>
+                </div>
+                <div class="layout-vflex product_card">
+                  <img src="images/home/carpet.png" class="product_image" alt="Flooring & Carpet">
+                  <h3 class="subheading">Flooring & Carpet</h3>
+                  <a href="carpet.html" class="button button">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-arrow-left" role="button" aria-label="Previous slide">‹</div>
+          <div class="slider-arrow-right" role="button" aria-label="Next slide">›</div>
+        </div>
+        <div class="slider-nav">
+          <div class="nav-dot active" data-index="1">1</div>
+          <div class="nav-dot" data-index="2">2</div>
+        </div>
+      </div>
+      <div class="product_slider_mobile">
+        <div class="slider slider" data-delay="4000" data-animation="slide">
+          <div class="slider-mask">
+            <div class="slide slide active">
+              <div class="layout-vflex product_card">
+                <img src="images/home/light.png" class="product_image" alt="Light Fixtures">
+                <h3 class="subheading">Light Fixtures</h3>
+                <a href="light.html" class="button">Learn More</a>
+              </div>
+            </div>
+            <div class="slide slide">
+              <div class="layout-vflex product_card">
+                <img src="images/home/faucet.png" class="product_image" alt="Faucets">
+                <h3 class="subheading">Faucets</h3>
+                <a href="faucet.html" class="button">Learn More</a>
+              </div>
+            </div>
+            <div class="slide slide">
+              <div class="layout-vflex product_card">
+                <img src="images/home/bath.png" class="product_image" alt="Toilet & Bathtub">
+                <h3 class="subheading">Toilet & Bathtub</h3>
+                <a href="bath.html" class="button">Learn More</a>
+              </div>
+            </div>
+            <div class="slide slide">
+              <div class="layout-vflex product_card">
+                <img src="images/home/door.png" class="product_image" alt="Doors & Accessories">
+                <h3 class="subheading">Doors & Door Accessories</h3>
+                <a href="door.html" class="button">Learn More</a>
+              </div>
+            </div>
+            <div class="slide slide">
+              <div class="layout-vflex product_card">
+                <img src="images/home/deck.png" class="product_image" alt="Decking & Fencing">
+                <h3 class="subheading">WPC Decking & Fencing</h3>
+                <a href="deck.html" class="button">Learn More</a>
+              </div>
+            </div>
+            <div class="slide slide">
+              <div class="layout-vflex product_card">
+                <img src="images/home/carpet.png" class="product_image" alt="Flooring & Carpet">
+                <h3 class="subheading">Flooring & Carpet</h3>
+                <a href="carpet.html" class="button">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-arrow-left" role="button" aria-label="Previous slide">‹</div>
+          <div class="slider-arrow-right" role="button" aria-label="Next slide">›</div>
+        </div>
+        <div class="slider-nav">
+          <div class="nav-dot active" data-index="1">1</div>
+          <div class="nav-dot" data-index="2">2</div>
+          <div class="nav-dot" data-index="3">3</div>
+          <div class="nav-dot" data-index="4">4</div>
+          <div class="nav-dot" data-index="5">5</div>
+          <div class="nav-dot" data-index="6">6</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE PROCESS -->
+  <section class="service_process">
+    <div class="content_wrapper">
+      <h1 class="section_heading">Service Process</h1>
+      <div class="layout-hflex columns">
+        <div class="layout-vflex service_card">
+          <h1 class="subheading">Contact</h1>
+          <p class="section_paragraph">
+            Contact our sales rep. for your demands, even an architecture dwg is okay
+          </p>
+        </div>
+        <img
+          src="images/home/right_arrow.png"
+          class="step_arrow"
+        />
+        <div class="layout-vflex service_card">
+          <h1 class="subheading">Propose</h1>
+          <p class="section_paragraph">
+            We propose per you demand or your architecture dwg.
+          </p>
+        </div>
+        <img
+          src="images/home/double_arrow.png"
+          class="step_arrow"
+        />
+        <div class="layout-vflex service_card">
+          <h1 class="subheading">Quote</h1>
+          <p class="section_paragraph">
+            We quote per accepted proposal. 
+          </p>
+        </div>
+        <img
+          src="images/home/right_arrow.png"
+          class="step_arrow"
+        />
+        <div class="layout-vflex service_card">
+          <h1 class="subheading">Serve</h1>
+          <p class="section_paragraph">
+            We manufacture, we do quality control, we ship product to your site, etc. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT US -->
+  <section id = "contact" class ="contact">
+    <div class="content_wrapper">
+      <h2 class="section_heading">Contact Us</h2>
+  
+      <form class="contact_form" action="https://formsubmit.co/evayihuajin@gmail.com" method="POST">
+        <div class="form_cols">
+          <div class="form_group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </div>
+      
+        <div class="form_group full_width">
+          <label for="message">Tell Us About Your Goals</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://woosesolution.com/thank-you.html">
+
+        <div class="form_submit">
+          <button type="submit" class="button">Submit</button>
+        </div>
+      </form>
+      
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer class="site_footer">
+    <div class="content_wrapper footer_cols">
+      <!-- Brand / Logo Column -->
+      <div class="footer_brand">
+        <a href="index.html" class="footer_logo">
+          <img src="images/footer-logo.png" alt="Woose Solutions" />
+          <span>Woose Solutions</span>
+        </a>
+        <a
+          href="https://www.google.com/maps/place/250+Consumers+Rd+%23904,+North+York,+ON+M2J+4V6/"
+          class="footer_link"
+          target="_blank"
+        >
+        250 Consumres Rd, Unit 904, North York ON Canada M2J4V6
+        </a>
+        <a href="mailto:info@woosesolution.com" class="footer_link">
+          info@woosesolution.com
+        </a>
+      </div>
+  
+      <!-- Info Column -->
+      <div class="footer_section">
+        <h4>Info</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+  
+      <!-- Products Column -->
+      <div class="footer_section">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="light.html">Light Fixtures</a></li>
+          <li><a href="faucet.html">Faucets</a></li>
+          <li><a href="bath.html">Toilet &amp; Bathtub</a></li>
+          <li><a href="door.html">Door &amp; Door Accessories</a></li>
+          <li><a href="deck.html">WPC Decking &amp; Flooring</a></li>
+          <li><a href="carpet.html">Flooring &amp; Carpet</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Bottom Copyright -->
+    <div class="footer_bottom">
+      <p>Copyright © 2025 www.woosesolution.com</p>
+    </div>
+  </footer>
+  
+  <!-- Slider JS -->
+  <script src="slider.js"></script>
+
+</body>
+</html>
