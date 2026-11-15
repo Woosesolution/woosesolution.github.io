@@ -2,18 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Woose Solutions</title>
+  <title>About Woose Solutions — Building Supplies Supplier in Ontario</title>
+  <meta name="description" content="Woose Solutions has supplied lighting, faucets, sanitary ware, doors, WPC decking and flooring to Canadian builders since 2020. Based in North York, Ontario.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Woose Solutions">
+  <meta property="og:description" content="A Canadian building-supplies supplier serving developers, builders, contractors and distributors since 2020.">
+  <meta property="og:url" content="https://woosesolution.com/about.html">
+  <link rel="icon" href="images/logo.png">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mobile_nav.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/refresh.css">
   <script src="nav.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body class="body">
 
   <!-- NAVBAR -->
   <header class="navbar">
-    <div class="nav_wrapper"> 
+    <div class="nav_wrapper">
       <a href="index.html" class="logo_box">
         <img src="images/logo.png" alt="Woose Solutions Logo" class="logo">
         <span class="logo_text">Woose Solutions</span>
@@ -25,15 +32,14 @@
           <div class="nav_dropdown_list">
             <a href="light.html" class="nav_dropdown_link">Light Fixtures</a>
             <a href="faucet.html" class="nav_dropdown_link">Faucets</a>
-            <a href="bath.html" class="nav_dropdown_link">Toilet & Bathtub</a>
-            <a href="door.html" class="nav_dropdown_link">Doors & Door Accessories</a>
-            <a href="deck.html" class="nav_dropdown_link">WPC Decking & Fencing</a>
-            <a href="carpet.html" class="nav_dropdown_link">Flooring & Carpet</a>
+            <a href="bath.html" class="nav_dropdown_link">Toilet &amp; Bathtub</a>
+            <a href="door.html" class="nav_dropdown_link">Doors &amp; Door Accessories</a>
+            <a href="deck.html" class="nav_dropdown_link">WPC Decking &amp; Fencing</a>
+            <a href="carpet.html" class="nav_dropdown_link">Flooring &amp; Carpet</a>
           </div>
         </div>
-        <a href="#contact" class="button">Contact Us</a>
+        <a href="index.html#contact" class="button">Contact Us</a>
       </nav>
-
 
       <div class="mobile_menu_toggle" onclick="toggleMobileMenu()">☰</div>
       <div id="mobile_menu" class="mobile_nav">
@@ -44,101 +50,194 @@
           </div>
           <div id="productsDropdown" class="dropdown_content">
             <a href="light.html">Light Fixtures</a>
-            <a href="faucets.html">Faucets</a>
-            <a href="bath.html">Toilet & Bathtub</a>
-            <a href="door.html">Doors & Accessories</a>
+            <a href="faucet.html">Faucets</a>
+            <a href="bath.html">Toilet &amp; Bathtub</a>
+            <a href="door.html">Doors &amp; Accessories</a>
             <a href="deck.html">WPC Decking</a>
-            <a href="carpet.html">Flooring & Carpet</a>
+            <a href="carpet.html">Flooring &amp; Carpet</a>
           </div>
         </div>
-        <a href="#contact" class="nav_link">Contact Us</a>
+        <a href="index.html#contact" class="nav_link">Contact Us</a>
       </div>
     </div>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="content_wrapper">
-      <h1 class="hero_welcome">About Us</h1>
-      <p class="section_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <!-- HERO -->
+  <section class="rf-hero">
+    <div class="rf-wrap">
+      <div class="rf-hero-inner" style="grid-template-columns:1fr;padding-bottom:64px;">
+        <div>
+          <span class="rf-eyebrow">About us</span>
+          <h1>We supply the finishes<br>that make a building <em>habitable</em>.</h1>
+          <p class="rf-sub">
+            Woose Solutions has been sourcing lighting, plumbing, doors, decking and flooring
+            for Canadian projects since 2020 — from a single North York warehouse to sites
+            across the country.
+          </p>
+          <div class="rf-hero-actions">
+            <a href="index.html#contact" class="rf-btn rf-btn-primary">Talk to us</a>
+            <a href="index.html#products" class="rf-btn rf-btn-ghost">See what we supply</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- WHO WE ARE -->
-  <section class="who_we_are">
-    <div class="content_wrapper">
-      <h2 class="section_heading">Who We Are</h2>
-      <p class="section_paragraph">
-        Woose Solutions, founded in 2020 in the GTA, is a rapidly growing company providing building supplies across Canada. We are committed to quality, reliability, and innovation.
+  <!-- STORY -->
+  <section class="rf-section">
+    <div class="rf-wrap">
+      <div class="rf-two-col">
+        <div>
+          <span class="rf-eyebrow">Our story</span>
+          <h2 class="rf-h2">It started with one warehouse unit in North York.</h2>
+          <p class="rf-lead">
+            In 2020, Woose Solutions opened with a narrow focus: supply the finishing materials
+            that Toronto builders kept struggling to source together — lighting from one place,
+            faucets from another, doors from a third.
+          </p>
+          <p class="rf-lead" style="margin-top:18px;">
+            Consolidating those categories under one supplier turned out to matter more than we
+            expected. A single purchase order, a single delivery schedule and a single person to
+            call removed a layer of coordination from every project. Five years on, we supply six
+            product categories to developers, builders, contractors and distributors across Canada.
+          </p>
+        </div>
+        <figure class="rf-figure">
+          <img src="images/home/WooseSolutionLocations.png" alt="Woose Solutions locations across Canada">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="rf-section soft">
+    <div class="rf-wrap">
+      <span class="rf-eyebrow">What we do</span>
+      <h2 class="rf-h2">Six categories, held to one specification standard.</h2>
+      <p class="rf-lead">
+        Whether a project needs a container of flooring or twenty bathroom faucets, the process
+        is the same: confirm the specification, quote it properly, check it before it ships.
       </p>
+      <div class="rf-grid-3">
+        <article class="rf-card">
+          <div class="rf-card-body">
+            <h3>Lighting</h3>
+            <p>Recessed downlights, pendants, vanity and commercial fixtures in LED.</p>
+          </div>
+        </article>
+        <article class="rf-card">
+          <div class="rf-card-body">
+            <h3>Plumbing</h3>
+            <p>Kitchen and bathroom faucets, toilets, tubs and matching fittings.</p>
+          </div>
+        </article>
+        <article class="rf-card">
+          <div class="rf-card-body">
+            <h3>Doors</h3>
+            <p>Interior and exterior doors with frames, hardware and trim.</p>
+          </div>
+        </article>
+        <article class="rf-card">
+          <div class="rf-card-body">
+            <h3>Decking &amp; fencing</h3>
+            <p>WPC composite boards and fence panels rated for Canadian winters.</p>
+          </div>
+        </article>
+        <article class="rf-card">
+          <div class="rf-card-body">
+            <h3>Flooring</h3>
+            <p>SPC, laminate and engineered flooring for residential and commercial use.</p>
+          </div>
+        </article>
+        <article class="rf-card">
+          <div class="rf-card-body">
+            <h3>Carpet</h3>
+            <p>Broadloom and carpet tile for offices, corridors and rental units.</p>
+          </div>
+        </article>
+      </div>
     </div>
   </section>
-  
-  
-  <!-- CONTACT US -->
-  <section id = "contact" class ="contact">
-    <div class="content_wrapper">
-      <h2 class="section_heading">Contact Us</h2>
-  
-      <form class="contact_form" action="https://formsubmit.co/info@woosesolution.com" method="POST">
-        <div class="form_cols">
-          <div class="form_group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="form_group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-        </div>
-      
-        <div class="form_group full_width">
-          <label for="message">Tell Us About Your Goals</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-        </div>
 
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="thank-you.html">
-
-        <div class="form_submit">
-          <button type="submit" class="button">Submit</button>
+  <!-- HOW WE WORK -->
+  <section class="rf-section">
+    <div class="rf-wrap">
+      <span class="rf-eyebrow">How we work</span>
+      <h2 class="rf-h2">Four rules we don't bend.</h2>
+      <div class="rf-why">
+        <div class="rf-why-item">
+          <span class="rf-num">01</span>
+          <h3>Specification before price</h3>
+          <p>We confirm what the product actually is — dimensions, finish, rating — before quoting. A cheap price on the wrong spec costs more later.</p>
         </div>
-      </form>
-      
+        <div class="rf-why-item">
+          <span class="rf-num">02</span>
+          <h3>One person to call</h3>
+          <p>Every project has a named contact who owns the order from enquiry to delivery. No ticket queue.</p>
+        </div>
+        <div class="rf-why-item">
+          <span class="rf-num">03</span>
+          <h3>Checked before it ships</h3>
+          <p>Quantities and finishes are verified before goods leave the warehouse. Problems get caught here, not on site.</p>
+        </div>
+        <div class="rf-why-item">
+          <span class="rf-num">04</span>
+          <h3>Delivered on your schedule</h3>
+          <p>We schedule around your framing and finishing dates, not around a fixed truck departure.</p>
+        </div>
+      </div>
     </div>
   </section>
-  
+
+  <!-- CTA -->
+  <section class="rf-section rf-contact">
+    <div class="rf-wrap">
+      <div style="max-width:720px;">
+        <span class="rf-eyebrow">Next step</span>
+        <h2 class="rf-h2">Send us a drawing or a bill of materials.</h2>
+        <p class="rf-lead">
+          We reply within one business day with product options, quantities and pricing.
+          If you are still at the planning stage, we are happy to advise on specification.
+        </p>
+        <div class="rf-hero-actions" style="margin-top:30px;">
+          <a href="mailto:info@woosesolution.com" class="rf-btn rf-btn-primary">Email info@woosesolution.com</a>
+          <a href="index.html#contact" class="rf-btn rf-btn-ghost">Use the enquiry form</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer class="site_footer">
     <div class="content_wrapper footer_cols">
-      <!-- Brand / Logo Column -->
       <div class="footer_brand">
         <a href="index.html" class="footer_logo">
-          <img src="images/footer-logo.png" alt="Woose Solutions" />
+          <img src="images/footer-logo.png" alt="Woose Solutions">
           <span>Woose Solutions</span>
         </a>
         <a
           href="https://www.google.com/maps/place/250+Consumers+Rd+%23904,+North+York,+ON+M2J+4V6/"
           class="footer_link"
           target="_blank"
+          rel="noopener"
         >
-        250 Consumres Rd, Unit 904, North York ON Canada M2J4V6
+        250 Consumers Rd, Unit 904, North York ON Canada M2J 4V6
         </a>
         <a href="mailto:info@woosesolution.com" class="footer_link">
           info@woosesolution.com
         </a>
       </div>
-  
-      <!-- Info Column -->
+
       <div class="footer_section">
         <h4>Info</h4>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </div>
-  
-      <!-- Products Column -->
+
       <div class="footer_section">
         <h4>Products</h4>
         <ul>
@@ -146,14 +245,13 @@
           <li><a href="faucet.html">Faucets</a></li>
           <li><a href="bath.html">Toilet &amp; Bathtub</a></li>
           <li><a href="door.html">Door &amp; Door Accessories</a></li>
-          <li><a href="deck.html">WPC Decking &amp; Flooring</a></li>
+          <li><a href="deck.html">WPC Decking &amp; Fencing</a></li>
           <li><a href="carpet.html">Flooring &amp; Carpet</a></li>
         </ul>
       </div>
     </div>
-    <!-- Bottom Copyright -->
     <div class="footer_bottom">
-      <p>Copyright © 2025 www.woosesolution.com</p>
+      <p>Copyright © 2026 Woose Solutions Inc.</p>
     </div>
   </footer>
 
